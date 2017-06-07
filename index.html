@@ -23,13 +23,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-    <!--Home page subscribe-->
-    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-	#mc_embed_signup{background:#F15025; clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    </style>
+    <script src="https://use.fontawesome.com/7d5c6cfe84.js"></script>
 </head><!--/head-->
 
 <body class="homepage">
@@ -47,7 +41,8 @@
                                 <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                <!--<li><a href="#"><i class="fa fa-linkedin"></i></a></li>--> 
+                                <li><a href="#"><i class="fa fa-codepen"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
                                 <!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                                 <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
                             </ul>
@@ -78,7 +73,7 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="about-us.html">About Me</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
                         <li class="dropdown">
@@ -86,13 +81,13 @@
                             <ul class="dropdown-menu">
                                 <li><a href="blog-skin.html">Skin</a></li>
                                 <li><a href="blog-fitness.html">Fitness</a></li>
-                                <li><a href="blog-archive.html">Blog Archive</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <!--<li><a href="404.html">404</a></li>
+                                <li><a href="blog.html">Tech Life</a></li>
+                                <!--<li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="404.html">404</a></li>
                                 <li><a href="shortcodes.html">Shortcodes</a></li>-->
                             </ul>
                         </li>
-                        <li><a href="blog.html">Blog</a></li> 
+                        <li><a href="blog.html">Blog Archive</a></li> 
                         <li><a href="contact-us.html">Contact</a></li>                        
                     </ul>
                 </div>
@@ -107,6 +102,7 @@
                 <li data-target="#main-slider" data-slide-to="0" class="active"></li>
                 <li data-target="#main-slider" data-slide-to="1"></li>
                 <li data-target="#main-slider" data-slide-to="2"></li>
+                <li data-target="#main-slider" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
 
@@ -115,9 +111,9 @@
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                    <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                   <h1 class="animation animated-item-1" id="slide-1">Life is a wonderful place. You get to live it with all your hopes and dreams.</h1>
+                                    <h2 class="animation animated-item-2">This is about making memories, achieving goals, and moving into the future...</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#About Me">Read More</a>
                                 </div>
                             </div>
 
@@ -130,15 +126,15 @@
                         </div>
                     </div>
                 </div><!--/.item-->
-
-                <div class="item" style="background-image: url(images/slider/computer-tray.jpg)">
+                
+                <div class="item" style="background-image: url(images/slider/honey-fangs-122907.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                    <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                    <h1 class="animation animated-item-1">Skin: Our largest and greatest defender to the environment. </h1>
+                                    <h2 class="animation animated-item-2">These are some routines to getting and maintaining clear skin. </h2>
+                                    <a class="btn-slide animation animated-item-3" href="#Skin Blog">Read More</a>
                                 </div>
                             </div>
 
@@ -152,14 +148,35 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/balloons.jpg)">
+                <div class="item" style="background-image: url(images/slider/andrew-pons-63456.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                    <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                    <h1 class="animation animated-item-1">Fitness: Its what's on the inside that counts! Muscles are the answer.</h1>
+                                    <h2 class="animation animated-item-2">Focus your attention on working what lies underneath and how to activate your body.</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#Fit Blog">Read More</a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <!--<img src="images/slider/img2.png" class="img-responsive">-->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url(images/slider/computer-tray.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Learning and curiosity: The best things about living. Do what makes your heart sing.</h1>
+                                    <h2 class="animation animated-item-2">A source is the beginning of finding out what you are looking for.</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#Thoughts">Read More</a>
                                 </div>
                             </div>
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
@@ -184,56 +201,32 @@
         <div class="container">
            <div class="center wow fadeInDown">
                 <h2>Features</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <p class="lead">Explore the routines, the numbers, the exercises, and all the work that goes into bringing technology into your life. <br> Answer the questions of how "this" will work in your life.</p>
             </div>
 
             <div class="row">
                 <div class="features">
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-bullhorn"></i>
-                            <h2>Fresh and Clean</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                            <a href="blog-skin.html"><i class="fa fa-tint"></i></a>
+                            <h2>Skin Routine</h2>
+                            <h3>Learn the korean skincare routine for oily acne-prone skin.</h3>
                         </div>
                     </div><!--/.col-md-4-->
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-comments"></i>
-                            <h2>Retina ready</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                            <a href="blog-fitness.html"><i class="fa fa-bicycle"></i></a>
+                            <h2>Movement</h2>
+                            <h3>What are the basics of muscle building and weight loss?</h3>
                         </div>
                     </div><!--/.col-md-4-->
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-cloud-download"></i>
-                            <h2>Easy to customize</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
-                        </div>
-                    </div><!--/.col-md-4-->
-                
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-leaf"></i>
-                            <h2>Adipisicing elit</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-cogs"></i>
-                            <h2>Sed do eiusmod</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <i class="fa fa-heart"></i>
-                            <h2>Labore et dolore</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                            <a href="blog.html"><i class="fa fa-pencil-square-o"></i></a>
+                            <h2>Tech Life</h2>
+                            <h3>The useful tech productions found around the web. </h3>
                         </div>
                     </div><!--/.col-md-4-->
                 </div><!--/.services-->
@@ -241,10 +234,10 @@
         </div><!--/.container-->
     </section><!--/#feature-->
 
-    <section id="recent-works">
+  <!--  <section id="recent-works">
         <div class="container">
             <div class="center wow fadeInDown">
-                <h2>Recent Works</h2>
+                <h2>My Work</h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
 
@@ -353,14 +346,14 @@
                     </div>
                 </div>   
             </div><!--/.row-->
-        </div><!--/.container-->
-    </section><!--/#recent-works-->
+        <!--</div><!--/.container-->
+    <!--</section><!--/#recent-works-->
 
     <section id="services" class="service-item">
 	   <div class="container">
             <div class="center wow fadeInDown">
-                <h2>Our Service</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <h2>My Services</h2>
+                <p class="lead">These are some of the services I provide and love!</p>
             </div>
 
             <div class="row">
@@ -371,8 +364,8 @@
                             <img class="img-responsive" src="images/services/services1.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">SEO Marketing</h3>
-                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                            <h3 class="media-heading">Software Development</h3>
+                            <p>Satisfying my creative itch with my nerd lady mindset.</p>
                         </div>
                     </div>
                 </div>
@@ -383,8 +376,8 @@
                             <img class="img-responsive" src="images/services/services2.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">SEO Marketing</h3>
-                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                            <h3 class="media-heading">Beta Reading</h3>
+                            <p>Honoring the talents of others and being able to subtly be a part of the process.</p>
                         </div>
                     </div>
                 </div>
@@ -395,13 +388,13 @@
                             <img class="img-responsive" src="images/services/services3.png">
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">SEO Marketing</h3>
-                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                            <h3 class="media-heading">Exercise Physiology</h3>
+                            <p>Focusing on posture, muscle building, and weight loss.</p>
                         </div>
                     </div>
                 </div>  
 
-                <div class="col-sm-6 col-md-4">
+                <!--<div class="col-sm-6 col-md-4">
                     <div class="media services-wrap wow fadeInDown">
                         <div class="pull-left">
                             <img class="img-responsive" src="images/services/services4.png">
@@ -435,15 +428,15 @@
                             <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
                         </div>
                     </div>
-                </div>                                                
+                </div>-->                                                
             </div><!--/.row-->
         </div><!--/.container-->
-    </section><!--/#services-->
+    <</section><!--/#services-->
 
     <section id="middle">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 wow fadeInDown">
+                <!--<div class="col-sm-6 wow fadeInDown">
                     <div class="skill">
                         <h2>My Skills</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -488,8 +481,8 @@
 
                 </div><!--/.col-sm-6-->
 
-                <div class="col-sm-6 wow fadeInDown">
-                    <div class="accordion">
+                <div class="center wow fadeInDown">
+                    <div class="accordion ">
                         <h2>Why People like me?</h2>
                         <div class="panel-group" id="accordion1">
                           <div class="panel panel-default">
@@ -572,7 +565,7 @@
         </div><!--/.container-->
     </section><!--/#middle-->
 
-    <section id="content">
+    <!--<section id="content">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 wow fadeInDown">
@@ -627,12 +620,12 @@
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,</p>
                                      </div>
                                 </div> <!--/.tab-content-->  
-                            </div> <!--/.media-body--> 
-                        </div> <!--/.media-->     
-                    </div><!--/.tab-wrap-->               
-                </div><!--/.col-sm-6-->
+                            <!--</div> <!--/.media-body--> 
+                        <!--</div> <!--/.media-->     
+                    <!--</div><!--/.tab-wrap-->               
+                <!--</div><!--/.col-sm-6-->
                 
-                <div class="col-xs-12 col-sm-4 wow fadeInDown">
+                <!--<div class="col-xs-12 col-sm-4 wow fadeInDown">
                     <div class="testimonial">
                         <h2>Testimonials</h2>
                          <div class="media testimonial-inner">
@@ -659,32 +652,8 @@
                 </div>
 
             </div><!--/.row-->
-        </div><!--/.container-->
-    </section><!--/#content-->
-    
-    <!-- Begin MailChimp Signup Form -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-4 wow fadeInDown">
-                            <div id="mc_embed_signup">
-                                <form action="//tech.us15.list-manage.com/subscribe/post?u=9361df43c6215c06e25d9f3bf&amp;id=76c98e6bfc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                <div id="mc_embed_signup_scroll">
-	                               <label for="mce-EMAIL">Sign Up Here For More Info!</label>
-	                                   <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                    <div style="position: absolute; left: -3000px;" aria-hidden="true"><input type="text" name="b_9361df43c6215c06e25d9f3bf_76c98e6bfc" tabindex="-1" value=""></div>
-                                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                                </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                        
-
-<!--End mc_embed_signup-->
-
-
+        <!--</div><!--/.container-->
+    <!--</section><!--/#content-->
     <section id="partner">
         <div class="container">
             <div class="center wow fadeInDown">
@@ -710,11 +679,11 @@
                 <div class="col-sm-8">
                     <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="pull-left">
-                            <i class="fa fa-phone"></i>
+                            <a href="http://eepurl.com/cOWf7H"><i class="fa fa-hand-o-right"></i></a>
                         </div>
                         <div class="media-body">
-                            <h2>Have a question or need a custom quote?</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation +0123 456 70 80</p>
+                            <h2>Sign-up <a href="http://eepurl.com/cOWf7H">HERE </a>for more Info!</h2>
+                            <p>If you want to receive more information sign up for the email list! You will receive (in list format) my favs when it comes to skin, fitness, and tech!</p>
                         </div>
                     </div>
                 </div>
@@ -729,18 +698,18 @@
                     <div class="widget">
                         <h3>Company</h3>
                         <ul>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">We are hiring</a></li>
+                            <li><a href="#">About Me</a></li>
+                            <!--<li><a href="#">We are hiring</a></li>
                             <li><a href="#">Meet the team</a></li>
                             <li><a href="#">Copyright</a></li>
                             <li><a href="#">Terms of use</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Privacy policy</a></li>-->
+                            <li><a href="#">Contact Me</a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
 
-                <div class="col-md-3 col-sm-6">
+                <!--<div class="col-md-3 col-sm-6">
                     <div class="widget">
                         <h3>Support</h3>
                         <ul>
@@ -753,24 +722,24 @@
                             <li><a href="#">Billing system</a></li>
                         </ul>
                     </div>    
-                </div><!--/.col-md-3-->
+                </div>--><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
-                        <h3>Developers</h3>
+                        <h3>Services</h3>
                         <ul>
                             <li><a href="#">Web Development</a></li>
-                            <li><a href="#">SEO Marketing</a></li>
-                            <li><a href="#">Theme</a></li>
-                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Beta Reading</a></li>
+                            <li><a href="#">Exercise Physiology</a></li>
+                            <!--<li><a href="#">Development</a></li>
                             <li><a href="#">Email Marketing</a></li>
                             <li><a href="#">Plugin Development</a></li>
-                            <li><a href="#">Article Writing</a></li>
+                            <li><a href="#">Article Writing</a></li>-->
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
 
-                <div class="col-md-3 col-sm-6">
+                <!--<div class="col-md-3 col-sm-6">
                     <div class="widget">
                         <h3>Our Partners</h3>
                         <ul>
@@ -782,8 +751,8 @@
                             <li><a href="#">Ullamco</a></li>
                             <li><a href="#">Laboris</a></li>
                         </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
+                    </div>   
+                </div>--><!--/.col-md-3-->
             </div>
         </div>
     </section><!--/#bottom-->

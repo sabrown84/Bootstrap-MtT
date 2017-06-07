@@ -183,7 +183,7 @@ body > section {
 }
 
 .top-bar {
-  padding: 10px 0;
+  padding: 5px 0;
   background: #17BEBB;
   border-bottom: 1px solid #fff;
   line-height: 28px;
@@ -224,7 +224,7 @@ ul.social-share li a {
 }
 
 ul.social-share li a:hover {
-  background: #EF7E31;
+  background: #C5EFCB;
   color: #fff;
 }
 
@@ -264,19 +264,19 @@ input.search-form:hover {
 
 .navbar {
   border-radius: 0;
-  margin-bottom: 0;
+  margin-bottom: 5px;
   background: #FFFFFF;
-  padding: 15px 0;
+  padding: 5px 0;
   padding-bottom: 0;
 }
 
  .navbar-nav{
-  margin-top: 12px;
+  margin-top: 5px;
  }
 
 .navbar-nav>li{
   margin-left: 35px;
-  padding-bottom: 28px;
+  padding-bottom: 8px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -314,7 +314,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu {
-  background-color: rgba(0,0,0,.85);
+  background-color: #17BEBB;
   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
@@ -400,7 +400,7 @@ input.search-form:hover {
 
 
 #main-slider .carousel .item {
-  background-position: 50%;
+  background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
   left: 0 !important;
@@ -409,7 +409,7 @@ input.search-form:hover {
   position: absolute;
   width: 100%;
   display: block !important;
-  height: 730px;
+  height: 530px;
   -webkit-transition: opacity ease-in-out 500ms;
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
@@ -501,6 +501,13 @@ input.search-form:hover {
   top: -3px;
 }
 
+#slide-1 {
+    color:#17BEBB;
+}
+.carousel-content , {
+    color: #4e4e4e;
+}
+
 #main-slider .active .animation.animated-item-1 {
   -webkit-animation: fadeInUp 300ms linear 300ms both;
   -moz-animation: fadeInUp 300ms linear 300ms both;
@@ -538,6 +545,10 @@ input.search-form:hover {
   padding-bottom: 40px;
 }
 
+#feature .lead {
+    color: #17BEBB;
+}
+
 .features{
   padding: 0;
 }
@@ -556,7 +567,7 @@ input.search-form:hover {
 }
 
 .feature-wrap i{
-  font-size: 48px;
+  font-size: 60px;
   height: 110px;
   width: 110px;
   margin: 3px;
@@ -656,13 +667,15 @@ input.search-form:hover {
   background-size: cover;
 }
 
-#services .lead,
+#services .lead{
+    color: #17BEBB;
+}
 #services h2{
   color: #fff;
 }
 
 .services-wrap {
-  padding: 40px 30px;
+  padding: 20px 30px;
   background: #fff;
   border-radius: 4px;
   margin: 0 0 40px;
@@ -670,9 +683,11 @@ input.search-form:hover {
 
 .services-wrap h3 {
   font-size: 20px;
-  margin: 10px 0;
+  margin: 10px 10px;
 }
-
+.services-wrap p {
+    color: #ffcc33;
+}
 .services-wrap .pull-left {
   margin-right: 20px;
 }
@@ -684,7 +699,9 @@ input.search-form:hover {
 .skill h2{
   margin-bottom: 25px;
 }
-
+.skill p {
+    color: #17BEBB;
+}
 .progress-wrap{
   position: relative;
 }
@@ -820,7 +837,7 @@ input.search-form:hover {
 }
 
 .panel-heading.active{
-  background: #1f1f20;
+  background: #17BEBB;
 }
 
 .panel-heading.active .panel-title>a{
@@ -986,14 +1003,14 @@ a.accordion-toggle  i{
   font-size: 40px;
   line-height: 60px;
   color: #fff;
-  background: #000;
+  background: #F15025;
   text-align: center;
   border-radius: 10px;
 }
 
 .contact-info h2{
   margin-top: 0;
-  color: #000;
+  color: #17BEBB;
 }
 
 .contact-info{
