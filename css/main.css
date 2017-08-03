@@ -1244,6 +1244,11 @@ a.accordion-toggle  i{
     font-size: 0.8em;
 }
 
+.single-profile-top img {
+  border-radius: 50%;
+  padding-bottom: 15px;
+}
+
 .media_image {
   margin-bottom: 10px;
 }
