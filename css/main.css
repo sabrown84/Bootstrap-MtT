@@ -1960,7 +1960,7 @@ ul.social_icons li  a i{
 **************************/
 
 .gmap-area {
-  background-image: url("../images/map.jpg");
+  background-image: url("https://unsplash.com/photos/vfzfavUZmfc/download?force=true");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2204,7 +2204,7 @@ ul.faq li > div h3 {
 
 .blog-item {
   border-radius: 0;
-  overflow: hidden;
+  overflow: auto;
   margin-bottom: 50px;
 }
 
@@ -2216,6 +2216,7 @@ ul.faq li > div h3 {
 
 .blog .blog-item .blog-content {
   padding-bottom: 25px;
+  overflow: auto;
 }
 
 .blog .blog-item .blog-content h2 {
@@ -2234,7 +2235,8 @@ ul.faq li > div h3 {
     
 .blog .blog-item .blog-content p {
   color: #858586;
-  margin-bottom: 40px;    
+  margin-bottom: 40px;
+  text-overflow: ellipsis;
     
   /* font-weight: 300 */}
 
@@ -2277,7 +2279,7 @@ ul.faq li > div h3 {
   text-align: left;
 }
 
-#publish_date_jun {
+#publish_date {
   background: #EF7E31;
   border-bottom: 5px solid #4e4e4e;
   color: #fff;
