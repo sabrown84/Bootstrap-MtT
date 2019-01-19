@@ -706,6 +706,13 @@ input.search-form:hover {
 .skill p {
     color: #17BEBB;
 }
+.page {
+  display: none;
+}
+.page-active {
+  display: block;
+}
+}
 .progress-wrap{
   position: relative;
 }
